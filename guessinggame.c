@@ -1,7 +1,10 @@
+/* Area where we include a bunch of stuff */
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
 #include <time.h>
+
+/* Main code */
 
 int main()
 {
@@ -10,6 +13,7 @@ int main()
     
     printf("please pick a number 0 - 5. if you guess right you win\n");
     printf("guess wrong and face your fate ...");
+    printf("P.S. Do NOT enter a letter or bad things will happen...");
     
     int guess;
     scanf("%d", &guess);
@@ -30,4 +34,3 @@ int main()
     printf("thank you for playing!");
     return 0;
 }
-
