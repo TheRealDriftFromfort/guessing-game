@@ -16,8 +16,8 @@ int main()
     printf("Guessing Game by 2 epic programmers\n");
     
     printf("please pick a number 0 - 5. if you guess right you win\n");
-    printf("guess wrong and face your fate ...");
-    printf("P.S. Do NOT enter a letter or bad things will happen...");
+    printf("guess wrong and face your fate ...\n");
+    printf("P.S. Do NOT enter a letter or bad things will happen...\n");
     
     int guess;
     scanf("%d", &guess);
@@ -28,11 +28,11 @@ int main()
     if(guess == randomNumber)
     {
         
-        printf("you win!");
+        printf("you win!\n");
     } else
     {
         
-        printf("you lost!");
+        printf("you lost!\n");
     }
     
     printf("thank you for playing!");
