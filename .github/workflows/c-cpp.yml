@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: workflow_dispatch
     - uses: actions/checkout@v2
     - name: configure
       run: ./configure
