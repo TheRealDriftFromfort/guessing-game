@@ -9,13 +9,13 @@
 int main()
 {
     srand(time(NULL));
-    int randomNumber = rand() % 5;
+    int randomNumber = rand() % 10;
     
     /* Guessing game by 2 epic developers! */
     
     printf("Guessing Game by 2 epic programmers\n");
     
-    printf("please pick a number 0 - 5. if you guess right you win\n");
+    printf("please pick a number 0 - 10. if you guess right you win\n");
     printf("guess wrong and face your fate ...\n");
     printf("P.S. Do NOT enter a letter or bad things will happen...\n");
     
