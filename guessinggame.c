@@ -1,4 +1,5 @@
-/* Area where we include a bunch of stuff */
+
+/* Area where we include a bunch of libraries */
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -6,35 +7,39 @@
 
 /* Main code */
 
-int main()
+int
+main (void)
 {
-    srand(time(NULL));
-    int randomNumber = rand() % 5;
-    
-    /* Guessing game by 2 epic developers! */
-    
-    printf("Guessing Game by 2 epic programmers\n");
-    
-    printf("please pick a number 0 - 5. if you guess right you win\n");
-    printf("guess wrong and face your fate ...\n");
-    printf("P.S. Do NOT enter a letter or bad things will happen...\n");
-    
-    int guess;
-    scanf("%d", &guess);
-    
-    printf("you guessed %d\n", guess);
-    printf("the correct answer was %d\n", randomNumber);
-    
-    if(guess == randomNumber)
+  srand (time (NULL));
+  int r = rand () % 5;
+
+  /* Guessing game by 2 epic developers! */
+
+  printf ("Guessing Game by 2 epic programmers\n");
+
+  printf ("please pick a number 0 - 5. if you guess right you win!\n");
+  printf ("guess wrong and face your fate ...\n");
+  printf ("P.S. Do NOT enter a letter or bad things will happen...\n");
+
+  int g;
+  scanf ("%d", &g);
+
+  printf ("you guessed %d\n", g);
+  printf ("the correct answer was %d\n", r);
+
+  if (g == r)	/* Win or Lose detector */
     {
-        
-        printf("you win!\n");
-    } else
-    {
-        
-        printf("you lost!\n");
+
+      printf ("you win!\n");
     }
-    
-    printf("thank you for playing!");
-    return 0;
+  else
+    {
+
+      printf ("you lost!\n");
+    }
+
+  printf ("thank you for playing!");
+  return 0;
+}
+
 }
