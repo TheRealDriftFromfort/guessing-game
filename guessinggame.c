@@ -1,4 +1,3 @@
-
 /* Area where we include a bunch of libraries */
 #include <stdio.h>
 #include <stdbool.h>
@@ -19,6 +18,7 @@ main (void)
 
   printf ("please pick a number 0 - 5. if you guess right you win!\n");
   printf ("guess wrong and face your fate ...\n");
+  printf ("This uses the GPL V3 Licence btw. Read LICENCE to see it. \n");
   printf ("P.S. Do NOT enter a letter or bad things will happen...\n");
 
   int g;
@@ -40,6 +40,4 @@ main (void)
 
   printf ("thank you for playing!");
   return 0;
-}
-
 }
