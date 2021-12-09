@@ -6,11 +6,10 @@
 
 /* Main code */
 
-int
-main (void)
+int main(void)
 {
   srand (time (NULL));
-  int r = rand () % 5;
+  int r = rand () % 5; /*generate random number*/
 
   /* Guessing game by 2 epic developers! */
 
@@ -22,7 +21,7 @@ main (void)
   printf ("P.S. Do NOT enter a letter or bad things will happen...\n");
 
   int g;
-  scanf ("%d", &g);
+  scanf ("%d", &g); /*look for user input and store it under the variable of g*/
 
   printf ("you guessed %d\n", g);
   printf ("the correct answer was %d\n", r);
