@@ -13,8 +13,7 @@ int main(void)
 
   /* Guessing game by 2 epic developers! */
 
-  printf ("Guessing Game by 2 epic programmers\n");
-
+  printf ("Guessing Game \n by 2 epic programmers!\n");
   printf ("please pick a number 0 - 5. if you guess right you win!\n");
   printf ("guess wrong and face your fate ...\n");
   printf ("This uses the GPL V3 Licence btw. Read LICENCE to see it. \n");
