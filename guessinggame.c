@@ -36,6 +36,6 @@ int main(void)
       printf ("you lost!\n");
     }
 
-  printf ("thank you for playing!"); /* Thank-You Message */
+  printf ("thank you for playing!\n"); /* Thank-You Message */
   return 0;
 }
